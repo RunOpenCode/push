@@ -1,0 +1,41 @@
+{
+    "name": "runopencode/push",
+    "description": "Provides you with possibility to send push notifications to relevant push distribution servers (APNS, FCM, broweser push, etc...).",
+    "keywords": [
+        "push", "push notifications", "apns", "fcm", "gcm", "browser push"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikola Svitlica a.k.a TheCelavi",
+            "email": "thecelavi@gmail.com",
+            "homepage": "http://www.runopencode.com",
+            "role": "Project lead"
+        },
+        {
+            "name": "RunOpenCode members",
+            "email": "support@runopencode.com",
+            "homepage": "http://www.runopencode.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RunOpenCode\\Push\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RunOpenCode\\Push\\Tests\\": "test/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "symfony/options-resolver": "^3.0|^4.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "ramsey/uuid": "^3.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
